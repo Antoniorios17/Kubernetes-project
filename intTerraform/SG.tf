@@ -35,5 +35,6 @@ resource "aws_security_group" "web_ssh" {
 output "web_server01-pub" {
   value = aws_instance.web_server01.public_ip
 
+  
 }
 
